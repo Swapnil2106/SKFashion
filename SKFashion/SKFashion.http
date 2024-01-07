@@ -1,0 +1,6 @@
+@SKFashion_HostAddress = http://localhost:5077
+
+GET {{SKFashion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
