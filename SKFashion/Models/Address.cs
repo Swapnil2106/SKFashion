@@ -18,9 +18,5 @@ namespace SKFashion.Models
         [StringLength(20)]
         public string? Country { get; set; }
         public long PinCode { get; set; }
-        [ForeignKey("CustomerId")]
-        public int CustomerId { get; set; }
-
-        public Customer? Customer { get; set; }
     }
 }
