@@ -56,7 +56,6 @@ namespace SKFashion.Controllers
             item.State = address.State;
             item.Country = address.Country;
             item.PinCode = address.PinCode;
-            item.CustomerId = address.CustomerId;
 
 
             await _context.SaveChangesAsync();
